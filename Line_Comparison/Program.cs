@@ -24,6 +24,8 @@ namespace Line_Comparison
 
             Console.WriteLine(line_One.Equals(line_Two));
 
+            Console.WriteLine(line_One.CompareTo(line_Two));
+
         }
     }
 }
