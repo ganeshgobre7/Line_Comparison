@@ -21,8 +21,7 @@ namespace Line_Comparison
             line_Two = Math.Abs((0.5) * Equation_two);
             Console.WriteLine("Length of line_two :" +line_Two);
 
-
-            Console.WriteLine(line_One.Equals(line_Two));
+            Console.WriteLine(line_One.Equals(line_Two));   
 
         }
     }
